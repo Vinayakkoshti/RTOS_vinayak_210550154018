@@ -1,0 +1,21 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/vinayak/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/vinayak/Desktop/RTOS/hello_world/build/bootloader",
+    "config_file":        "/home/vinayak/Desktop/RTOS/hello_world/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.4-dev-2928-gd5f58ab135",
+    "target":             "esp32",
+    "rev":                "0",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/vinayak/esp/esp-idf/components/efuse/Kconfig;/home/vinayak/esp/esp-idf/components/esp32/Kconfig;/home/vinayak/esp/esp-idf/components/esp_common/Kconfig;/home/vinayak/esp/esp-idf/components/esp_hw_support/Kconfig;/home/vinayak/esp/esp-idf/components/esp_system/Kconfig;/home/vinayak/esp/esp-idf/components/freertos/Kconfig;/home/vinayak/esp/esp-idf/components/hal/Kconfig;/home/vinayak/esp/esp-idf/components/log/Kconfig;/home/vinayak/esp/esp-idf/components/newlib/Kconfig;/home/vinayak/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/vinayak/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/vinayak/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/home/vinayak/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/vinayak/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/vinayak/esp/esp-idf/components/bootloader", "/home/vinayak/esp/esp-idf/components/bootloader_support", "/home/vinayak/esp/esp-idf/components/efuse", "/home/vinayak/esp/esp-idf/components/esp32", "/home/vinayak/esp/esp-idf/components/esp_common", "/home/vinayak/esp/esp-idf/components/esp_hw_support", "/home/vinayak/esp/esp-idf/components/esp_rom", "/home/vinayak/esp/esp-idf/components/esp_system", "/home/vinayak/esp/esp-idf/components/esptool_py", "/home/vinayak/esp/esp-idf/components/freertos", "/home/vinayak/esp/esp-idf/components/hal", "/home/vinayak/esp/esp-idf/components/log", "/home/vinayak/esp/esp-idf/components/bootloader/subproject/main", "/home/vinayak/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/vinayak/esp/esp-idf/components/newlib", "/home/vinayak/esp/esp-idf/components/partition_table", "/home/vinayak/esp/esp-idf/components/soc", "/home/vinayak/esp/esp-idf/components/spi_flash", "/home/vinayak/esp/esp-idf/components/xtensa", "" ]
+}

@@ -1,0 +1,6 @@
+source "/home/vinayak/esp/esp-idf/components/app_update/Kconfig.projbuild"
+source "/home/vinayak/esp/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/home/vinayak/esp/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "/home/vinayak/esp/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/home/vinayak/Desktop/RTOS_Vinayak_210550154018/q18_queue/main/Kconfig.projbuild"
+source "/home/vinayak/esp/esp-idf/components/partition_table/Kconfig.projbuild"
